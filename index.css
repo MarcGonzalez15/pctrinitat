@@ -1,0 +1,402 @@
+body{
+width: 99%;
+height: 800px;
+
+}
+
+
+#body_left{
+float: left;
+width: 65%;
+height: 800px;
+background-image: url("https://wallpaperbat.com/img/220637-neon-sky-tumannosti-kosmos-oboi.jpg");
+}
+
+
+/*ZONA DE TITULO DE IMAGEN PRINCIPAL*/
+#title_img_main{
+width: 100%;
+height: 45px;
+float:left;
+margin-left: 15px;
+margin-bottom: 5px;
+}
+
+/*FUENTE Y MARGEN DE TEXTO DE TITULO DE IMAGEN PRINCIPAL*/
+#text_title_img_main{
+padding-top: 15px;
+padding-left: 5px;
+font-size: 25px;
+color: white;
+}
+
+/*ZONA DE IMAGEN PRINCIPAL*/
+#img_main{
+float:left;
+background: url("https://aulaticraulbernariera.files.wordpress.com/2016/09/cropped-banner-informatica.jpg");
+background-size: 100% 200px;
+width: 96%;
+height: 200px;
+margin-left: 20px;
+padding-left: 5px;
+}
+/*FUENTE Y MARGEN DE TEXTO SOBRE LA IMAGEN*/
+#text_img{
+padding-top: 165px;
+font-size: 26px;
+color: black;
+text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px white,
+    0 0 82px white,
+    0 0 92px white,
+    0 0 102px white,
+    0 0 151px white;
+
+}
+
+/*FORMATO Y MARGEN DE TEXTO DEBAJO DE LA IMAGEN*/
+#text_under_img{
+float: left;
+width: 96%;
+height: 80px;
+font-size: 19px;
+margin:20px;
+color:white;
+}
+
+
+/*ZONA DE LAS NOTICIAS(NUMERO 4)*/
+#last_news{
+float:left;
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+height: 420px;
+
+}
+
+#new1{
+width: 50%;
+height: 212px;
+}
+#new_space1{
+width: 392px;
+height: 170px;
+margin: 10px;
+padding:9px;
+background-color: #292c2f;
+border: 2px solid rgb(209, 209, 209);
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+#new_info1{
+width: 370px;
+height: 170px;
+}
+#img_new1{
+width: 31%;
+height: 88%;
+float: left;
+
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+
+#new_info1{
+width: 390px;
+height: 170px;
+}
+#img_new1{
+width: 31%;
+height: 87%;
+float: left;
+}
+#text_new1{
+width: 66%;
+height: 100%;
+float: left;
+margin-left: 3%;
+color:white;
+}
+
+#new2{
+width: 50%;
+height: 212px;
+}
+#new_space2{
+width: 392px;
+height: 170px;
+margin: 10px;
+padding:9px;
+background-color: #292c2f;
+border: 2px solid rgb(209, 209, 209);
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+#new_info2{
+width: 370px;
+height: 170px;
+}
+#img_new2{
+width: 31%;
+height: 88%;
+float: left;
+
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+
+#new_info2{
+width: 390px;
+height: 170px;
+}
+#img_new2{
+width: 31%;
+height: 87%;
+float: left;
+}
+#text_new2{
+width: 66%;
+height: 100%;
+float: left;
+margin-left: 3%;
+color:white;
+}
+
+#new3{
+width: 50%;
+height: 212px;
+}
+#new_space3{
+width: 392px;
+height: 170px;
+margin: 10px;
+padding:9px;
+background-color: #292c2f;
+border: 2px solid rgb(209, 209, 209);
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+#new_info3{
+width: 370px;
+height: 170px;
+}
+#img_new3{
+width: 31%;
+height: 88%;
+float: left;
+
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+
+#new_info3{
+width: 390px;
+height: 170px;
+}
+#img_new3{
+width: 48%;
+height: 100%;
+float: left;
+}
+#text_new3{
+width: 45%;
+height: 88%;
+float: left;
+margin-left: 3%;
+color:white;
+}
+
+#new4{
+width: 50%;
+height: 212px;
+}
+#new_space4{
+width: 392px;
+height: 170px;
+margin: 10px;
+padding:9px;
+background-color: #292c2f;
+border: 2px solid rgb(209, 209, 209);
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+#new_info4{
+width: 370px;
+height: 170px;
+}
+#img_new4{
+width: 31%;
+height: 88%;
+float: left;
+    
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+    
+#new_info4{
+width: 390px;
+height: 170px;
+}
+#img_new4{
+width: 31%;
+height: 87%;
+float: left;
+}
+#text_new4{
+width: 66%;
+height: 100%;
+float: left;
+margin-left: 3%;
+color:white;
+}
+
+#columna_mid{
+float: left;
+width: 0.5%;
+height: 800px;
+background-image: url("https://i.ytimg.com/vi/2nvpP55uDoQ/maxresdefault.jpg");
+}
+/*COLUMNA DERECHA*/
+#body_right1{
+float: left;
+width: 34.5%;
+height: 800px;
+background-image: url("https://cdn.wallpapersafari.com/53/42/xlPSDQ.jpg");
+}
+
+
+/*ZONA DE NOTICIAS*/
+#other_news{
+width: 99%;
+height: 100%;
+margin-top: 45px;
+}
+/*ZONA TITULO DE NOTICIAS*/
+#title_other_news{
+width: 100%;
+height: 60px;
+
+}
+/*FUENTE Y MARGEN DE TITULO*/
+#text_title_other_news{
+font-size: 25px;
+padding-left: 10px;
+color:white;
+}
+    
+#all_news{
+width: 100%;
+height: 655px;
+}
+/* unvisited link */
+#all_news a:link {
+color: white;
+text-decoration: none;
+} 
+/* visited link */
+#all_news a:visited {
+color: white;
+text-decoration: none;
+}  
+/* mouse over link */
+#all_news a:hover {
+color: white;
+text-shadow:
+    0 0 7px rgb(35, 86, 255),
+    0 0 10px rgb(35, 86, 255),
+    0 0 21px rgb(35, 86, 255),
+    0 0 42px rgb(35, 86, 255),
+    0 0 82px rgb(35, 86, 255),
+    0 0 92px rgb(35, 86, 255),
+    0 0 102px rgb(35, 86, 255),
+    0 0 151px rgb(35, 86, 255);
+
+}
+text-decoration: none;
+}
+/* selected link */
+#all_news a:active {
+color: white;
+text-decoration: none;
+}
+    
+/*ZONA DE NOTICIES*/
+.all_news{
+width: 100%;
+}
+.content_news{
+padding:10px;
+}
+
+#all_news1{
+width: 99%;
+height: 90px;
+
+}
+#all_news2{
+width: 99%;
+height: 50px;
+
+}
+#all_news3{
+width: 99%;
+height: 70px;
+
+}
+#all_news4{
+width: 99%;
+height: 70px;
+
+}
+#all_news5{
+width: 99%;
+height: 70px;
+
+}
+#all_news6{
+width: 99%;
+height: 85px;
+
+}
+#all_news7{
+width: 99%;
+height: 70px;
+
+}
+#all_news8{
+width: 99%;
+height: 80px;
+
+}
+#all_news9{
+width: 99%;
+height: 70px;
+
+}
+
+#margen_footer{
+width: 100%;
+height: 25px;
+float: left;
+}
+
