@@ -1,0 +1,241 @@
+body {
+        background-image: url("https://cdn.wallpapersafari.com/13/88/n3oVte.jpg");
+        background-size: cover;
+}
+#carrito{
+        color: white;
+}
+#title {
+    text-align: center; 
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 15px; 
+    COLOR: white; 
+    text-shadow: 0px 0px 9px cadetblue;
+}
+/*BOTONES*/
+.button{
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 15px;
+    border: 2px solid #0016b0;
+    float: right;
+    margin-bottom: 15px;
+}
+.button:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+}
+/*AÑADIR AL CARRITO*/
+.button1{
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 15px;
+    border: 2px solid #0016b0;
+    float: right;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.button1:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+}
+/*TECLADO IMAGEN 1*/
+#zone_products{
+    width: 100%;
+    height: 555px;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#zone_product1{
+    width: 25%;
+    height: 220px;
+
+}
+
+
+
+#border_product1{
+    width: 300px;
+    height: 390px;
+    margin: auto;
+    border:  5px solid rgb(26, 45, 87) ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color:grey;
+}
+
+#zone_img_product1{
+    width: 100%;
+    height: 45%;
+    
+}
+
+#img_product1{
+    width: 75%;
+    height: 45%;/*CAMBIAR*/
+    padding-top: 15%;/*CAMBIAR*/
+    margin-left: 30px;
+}
+
+#name_product1{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    font-size: 22px;/*CAMBIAR*/
+}
+/*TECLADO CUADRO 2*/
+#zone_product2{
+    width: 25%;
+    height: 320px;
+    float: left;
+
+}
+
+#content_product2{
+    width: 250px;
+    height: 390px;
+    margin:auto;
+}
+
+#border_product2{
+    width: 300px;
+    height: 390px;
+    margin: auto;
+    border: 5px solid rgb(26, 45, 87);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: grey;
+}
+
+#zone_img_product2{
+    width: 100%;
+    height: 74%;/*CAMBIAR [+]*/
+}
+#img_product2{
+    width: 100%;
+    height: 75%;/*CAMBIAR*/
+    padding-top: 12%;/*CAMBIAR*/
+    float: left;
+}
+
+#name_product2{
+    width: 100%;
+    height: 14%;/*CAMBIAR [+]*/
+    text-align: center;
+    font-size: 22px;/*CAMBIAR*/
+}
+
+/*PRODUCTO IMAGEN 3*/
+#zone_product3{
+    width: 25%;
+    height: 320px;
+    float: left;
+
+}
+#border_product3{
+    width: 300px;
+    height: 390px;
+    margin: auto;
+    border: 5px solid rgb(26, 45, 87);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: grey;
+}
+
+#content_product3{
+    width: 250px;
+    height: 390px;
+    margin:auto;
+
+}
+#zone_img_product3{
+    width: 100%;
+    height: 74%;/*CAMBIAR [+]*/
+}
+#img_product3{
+    width: 100%;
+    height: 80%;/*CAMBIAR*/
+    padding-top: 15%;/*CAMBIAR*/
+    float: left;
+}
+#name_product3{
+    width: 100%;
+    height: 16%;/*CAMBIAR [+]*/
+    text-align: center;
+    font-size: 22px;/*CAMBIAR*/
+    margin-top: 15px;
+}
+
+/*IMAGEN 4 PRODUCTO*/
+#zone_product4{
+    width: 25%;
+    height: 320px;
+    float: left;
+
+}
+#border_product4{
+    width: 300px;
+    height: 390px;
+    margin: auto;
+    border: 5px solid rgb(26, 45, 87);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: grey;
+}
+
+#content_product4{
+    width: 250px;
+    height: 390px;
+    margin:auto;
+
+}
+#zone_img_product4{
+    width: 100%;
+    height: 74%;/*CAMBIAR [+]*/
+}
+#img_product4{
+    width: 85%;
+    height: 65%;/*CAMBIAR*/
+    padding-top: 15%;/*CAMBIAR*/
+    float: left;
+}
+#name_product4{
+    width: 100%;
+    height: 16%;/*CAMBIAR [+]*/
+    text-align: center;
+    font-size: 22px;/*CAMBIAR*/
+}
+
+#footer_zone{
+    width: 100%;
+    height: 220px;
+    float:left;
+    background-color: rgb(138, 138, 138);
+    
+    
+}
+#footer_text{
+    width:100%;
+    height:100%;    
+}
+
+
