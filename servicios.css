@@ -1,0 +1,125 @@
+.button{
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 15px;
+    border: 2px solid #0016b0;
+    float: right;
+    margin-bottom: 15px;
+}
+.button:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: white;
+    font: 90% Roboto, Arial, sans-serif;
+    font-weight: 300;
+    background-image: url("https://cdn.wallpapersafari.com/61/86/3xDeJm.jpg");
+    background-size: cover;
+}
+
+p {
+    padding: 0 10px;
+    line-height: 3;
+}
+
+
+h3 {
+    padding: 5px 20px;
+    margin: 0;
+}
+
+div#header {
+    position: relative;
+}
+
+div#header h1 {
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    padding-left: 10px;
+    background: #e0e0e0;
+    color: white;
+}
+
+div#header a {
+    position: absolute;
+    right: 0;
+    top: 23px;
+    padding: 10px;
+    color: #006;
+}
+.container{
+	width: 700px;
+	margin: 0 auto;
+}
+
+
+
+/*TITULO*/
+span#titl {
+  position: absolute;
+  
+  left: 130px;
+  top: 100px;
+  transform: translate(-50%, -50%);
+  
+  color: #cf1b1b;
+  font-size: 50x;
+  letter-spacing: 8px;
+  cursor: pointer;
+}
+
+span#titl::before {
+  content: "SERVICOS";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0;
+  z-index: -1;
+  transition: 1s;
+}
+
+span#titl::after {
+  content: "SERVICOS";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0px;
+  transition: 1s;
+}
+
+span#titl:hover:before {
+  top: 10px;
+  left: 10px;
+}
+
+span#titl:hover:after {
+  top: -10px;
+  left: -10px;
+} 
